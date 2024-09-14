@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+    <h1>Imagem Flexivel</h1>
+       <h2>Você está vendo a imagem completa ? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência.</h2>
+    
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagens.px-p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/imagens.px-m.jpg" type="image/jpg">
+        <img src="imagens/imagens.px.jpg" alt="Foto Flexivel">
+    </picture>
+
+    <picture>
+        <source media="(max-width: 790px)" srcset="imagens/paisagem-p.png" type="image/png">
+        <source media="(max-width: 1250px)" srcset="imagens/paisagem-m.png" type="image/png">
+        <img src="imagens/paisagem-g.png" alt="Flexivel">
+    </picture>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+       /* SELETORES PERSONALIZADOS
+         # = id
+         . = class
+         : = pseudo-class
+         :: = pseudo-elementos
+         > = clildren (filho de elemento)
+       */
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        h1 {
+            background-color: rgb(43, 43, 43);
+            color: white;
+        }
+        a {
+            color: #038C3E;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: #04678f;
+
+        }
+
+        a:hover {
+            color: #0CF25D;
+        }
+
+        a:active {
+            color: bisque;
+        }
+         
+        .especial::before {
+            font-weight: normal;
+            font-style: italic;
+            content: ':)';
+        }
+        a::after {
+            font-weight: bolder;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+
+       <ul>
+           <li><a href="https://github.com/Pedrohnds" target="_blank" class="especial">Meu perfil</a></li>
+           <li><a href="https://www.youtube.com/c/CursoemVídeo" target="_blank">Canal do Curso em Video</a></li>
+           <li><a href="pedrohnds.github.io/projeto-manual/" target="_blank">Meu Primeiro Site</a></li>
+       </ul>
+
+</body>
+</html>

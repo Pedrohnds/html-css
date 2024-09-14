@@ -1,0 +1,22 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+    color: blue;
+    text-align: justify;
+    text-align: center;
+
+}
+
+h2 {
+    color: grey;
+}
+
+p {
+
+    text-align: justify;
+}
