@@ -74,8 +74,11 @@ nav {
 }
 
 nav > a {
+    display: block;
     text-decoration: none;
-    margin-right: 15px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
     padding: 9px;
     border-radius: 2px;
     color: white;

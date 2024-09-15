@@ -21,7 +21,6 @@ body {
     background-color: var(--cor4);
     font-family: var(--fonte);
     margin: 0;
-    padding: 0;
     
 }
 
@@ -52,8 +51,12 @@ nav {
 }
 
 nav > a {
+    display: block;
+    
     text-decoration: none;
-    margin-right: 15px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
     padding: 9px;
     border-radius: 2px;
     color: white;
@@ -99,6 +102,9 @@ main {
 .subtitulos {
     text-align: center;
     padding: 9px;
+    background-image: linear-gradient(to right, #0a3f3a49, #ffffff00 );
+    border-radius: 2px;
+    box-shadow: 2px 2px 1px lightgrey;
 }
 
 .links {
@@ -129,7 +135,7 @@ div#img img {
 }
 
 footer{
-    background-color: black;
+    background-color: #204b46;
     text-align: center;
     padding: 3px;
     color: white
