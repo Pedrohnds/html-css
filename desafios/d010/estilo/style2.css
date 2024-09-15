@@ -92,6 +92,10 @@ main {
     
 }
 
+.paragrafo > a {
+    text-decoration: none;
+}
+
 .subtitulos {
     text-align: center;
     padding: 9px;
