@@ -6,6 +6,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
 :root {
     --cor: black ;
     --cor1: white ;
@@ -15,27 +21,32 @@
 
 body {
     background-color: white;
+    min-height: 100vh;
 }
 
 
 header {
 
     background-color: var(--cor);
-    background-size: cover;
     font-family: var(--font01);
     color: white;
-    font-size: 1.5em;
     text-align: center;
-    padding: 1px;
+    padding-top: 50px;
     
 
 }
 
+header > h1 {
+    font-variant: small-caps;
+    font-size: 7vw;
+}
 
 header > p > a {
     text-decoration: none;
     color: white;
     font-size: 18px;
+    padding-bottom: 50px;
+    font-size: 1.2em;
 
 }
 
@@ -45,53 +56,58 @@ header > p > a:hover {
     
 }
 
-main {
-    min-width: 300px;
-    max-width: 1000px;
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 20px;
+    font-size: 3.0vw;
 }
 
 .branco {
     background-color: white;
     font-family: var(--font02);
-    width: ;
 }
 
-
 .image {
-    background: white url(imagens/background001.jpg) top left no-repeat fixed;
+    background: white url(imagens/background001.jpg) center center no-repeat fixed;
     background-size: cover;
+    
     
 }
 
 .image2{
-    background: white url(imagens/background002.jpg) top left no-repeat fixed;
+    background: white url(imagens/background002.jpg) center center no-repeat fixed;
     background-size: cover;
+    
 }
 .com {
-   
     font-family: var(--font02);
-    width: 192px;
-    height: 209px;
-    border: 1px solid black;
-    padding: 7px;
-    margin: 1px;
-    color: white;
+    color: rgb(255, 255, 255);
+
 
 }
-
-
 .com2 {
     font-family: var(--font02);
-    width: 192px;
-    height: 209px;
-    border: 1px solid black;
-    padding: 7px;
-    margin: 1px;
-    color: black;
+    color: rgb(255, 255, 255);
 
 }
 
+.com > p {
+    display: inline-block;
+    background-color: rgba(19, 18, 18, 0.596);
+    box-shadow: 1px 2px 2px solid black;
+    border-radius: 4px;
+    padding: 10px;
+}
 
+.com2 > p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.452);
+    box-shadow: 1px 2px 2px solid black;
+    border-radius: 4px;
+    padding: 10px;
+}
 
 
 footer{
@@ -109,7 +125,6 @@ footer{
     text-decoration: none;
     color: white;
 }
-
 
 .footer:hover {
     text-decoration: underline;
