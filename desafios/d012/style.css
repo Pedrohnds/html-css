@@ -64,6 +64,11 @@ section {
     font-size: 3.0vw;
 }
 
+section > p {
+    padding-bottom: 1em;
+}
+
+
 .branco {
     background-color: white;
     font-family: var(--font02);
