@@ -1,6 +1,6 @@
 window.addEventListener('resize', function() {
     const images = document.querySelectorAll('.image, .image2');
-    if (window.innerWidth <= 400) { 
+    if (window.innerWidth <= 250) { 
         images.forEach(el => {
             el.style.backgroundAttachment = 'scroll';
         });
