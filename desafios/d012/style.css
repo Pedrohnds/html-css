@@ -75,14 +75,14 @@ section > p {
 }
 
 .image {
-    background: white url(imagens/background001.jpg) center center no-repeat fixed;
+    background: white url(imagens/background001.jpg) right center no-repeat fixed;
     background-size: cover;
     
     
 }
 
 .image2{
-    background: white url(imagens/background002.jpg) center center no-repeat fixed;
+    background: white url(imagens/background002.jpg) no-repeat fixed;
     background-size: cover;
     
 }
