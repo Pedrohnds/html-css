@@ -11,5 +11,5 @@ window.addEventListener('resize', function() {
     }
 });
 
-// Chamada inicial
+
 window.dispatchEvent(new Event('resize'));

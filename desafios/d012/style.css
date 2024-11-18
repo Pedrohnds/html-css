@@ -56,6 +56,21 @@ header > p > a:hover {
     
 }
 
+.novos  {
+    text-align: center;
+    padding: 20px;
+}
+
+.novos > a {
+    text-decoration: none;
+    color: white;
+}
+
+.novos > p  > a:hover {
+    text-decoration: underline;
+    color: lightgray;
+}
+
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -136,4 +151,5 @@ footer{
 
 .footer:hover {
     text-decoration: underline;
+    color: lightgray;
 }
